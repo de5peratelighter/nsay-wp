@@ -1,0 +1,39 @@
+
+---Downloaded files---
+The import files for: Demo 8 were successfully downloaded!
+Initial max execution time = 20
+Files info:
+Site URL = http://archibuk.byethost12.com
+Data file = /home/vol8_2/byethost12.com/b12_19551352/archibuk.byethost12.com/htdocs/wp-content/themes/authentic/dist/demo/demo-content.xml
+Widget file = /home/vol8_2/byethost12.com/b12_19551352/archibuk.byethost12.com/htdocs/wp-content/themes/authentic/dist/demo/widgets.json
+Customizer file = /home/vol8_2/byethost12.com/b12_19551352/archibuk.byethost12.com/htdocs/wp-content/themes/authentic/dist/demo/customizer-8.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+Default Sidebar : 
+
+Authentic: Posts - Recent Articles - Imported
+Категорії - No Title - Imported
+
+Footer Sidebar 1 : 
+
+Календар - Calendar - Imported
+
+Footer Sidebar 2 : 
+
+Користувацьке меню - Navigation - Imported
+Пошук - No Title - Imported
+
+Footer Sidebar 3 : 
+
+Архіви - No Title - Imported
+Хмаринка позначок - No Title - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

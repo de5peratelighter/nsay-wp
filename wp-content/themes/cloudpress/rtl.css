@@ -1,0 +1,59 @@
+/*
+Theme Name: cloudpress
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+http://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+.logo-nav .top-search .modal-dialog{right:0;left:0;}
+.logo-nav .navbar-nav:not(.sm-collapsible) ul .caret{border-right:4px solid #aaa;}
+.features .carousel-caption{text-align:right;}
+.captionText{float:right;}
+.our-services .single .icon,.our-services .sidebar .search .icon,.sidebar .our-services .search .icon,.our-services .sidebar .side-tab .icon,.sidebar .our-services .side-tab .icon,.our-services .sidebar .side-category .icon,.sidebar .our-services .side-category .icon,.our-services .sidebar .side-about .icon,.sidebar .our-services .side-about .icon,.our-services .sidebar .side-archives .icon,.sidebar .our-services .side-archives .icon,.our-services .sidebar .side-meta .icon,.sidebar .our-services .side-meta .icon,.our-services .sidebar .side-comments .icon,.sidebar .our-services .side-comments .icon,.our-services .sidebar .sidebar-menu .icon,.sidebar .our-services .sidebar-menu .icon,.our-services .sidebar .side-tag .icon,.sidebar .our-services .side-tag .icon{float:right;margin-left:20px;}
+.page-header .breadcrumb li{margin-left:5px;}
+.page-content .post-image .post-category{left:1px;}
+.sidebar .search .form-control{float:right !important;}
+.sidebar .side-tab .nav-tabs > li:first-child > a{-webkit-border-radius:0 4px 0 0;-moz-border-radius:0 4px 0 0;-ms-border-radius:0 4px 0 0;border-radius:0 4px 0 0;}
+.sidebar .side-tab .nav-tabs > li:last-child > a{-webkit-border-radius:4px 0 0 0;-moz-border-radius:4px 0 0 0;-ms-border-radius:4px 0 0 0;border-radius:4px 0 0 0;}
+.sidebar .side-tab .tab-post-single img{margin-left:10px;}
+.sidebar .side-category .side-title{-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;-ms-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;}
+.sidebar .side-about .side-title,.sidebar .side-archives .side-title,.sidebar .side-meta .side-title,.sidebar .side-comments .side-title,.sidebar .sidebar-menu .side-title{-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;-ms-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;}
+.sidebar .side-about .side-content .archices-list li ul,.sidebar .side-archives .side-content .archices-list li ul,.sidebar .side-meta .side-content .archices-list li ul,.sidebar .side-comments .side-content .archices-list li ul,.sidebar .sidebar-menu .side-content .archices-list li ul{margin-right:10px;}
+.sidebar .side-tag{padding:0 0 30px 0;}
+.sidebar .side-tag .side-title{-webkit-border-radius:4px 4px 0 0;-moz-border-radius:4px 4px 0 0;-ms-border-radius:4px 4px 0 0;border-radius:4px 4px 0 0;}
+.page-not-found .not-found .form-control{margin-right:auto;margin-left:auto;}
+.single-page .detail-content .detail-image .detail-date{right:0px;}
+.single-page .detail-content .title{border-right:4px solid #c84e4e;}
+.single-page .detail-content .author .general-info img{margin-left:15px;}
+.clear-both{padding-right:0;padding-left:0;}
+.scroll-top-wrapper{left:22px;border-bottom-left-radius:4px;border-bottom-right-radius:4px;}
+.navbar-right .dropdown-menu{right:0;}
+.woocommerce nav.woocommerce-pagination ul li{border-left:none !important;margin-left:2px;}
+.woocommerce #reviews #comments ol.commentlist li .comment-text{margin:0 85px 0 0;}
+.product-categories li{border-right:medium none;padding-right:5px;}
+#rememberme{float:right;}
+.wpcf7-form-control-wrap input.wpcf7-file{right:0;}
+[type=\"checkbox\"]:not(:checked),[type=\"checkbox\"]:checked{right:-9999px;}
+[type=\"checkbox\"]:not(:checked) + span,[type=\"checkbox\"]:checked + span{padding-right:25px;}
+[type=\"checkbox\"]:not(:checked) + span:before,[type=\"checkbox\"]:checked + span:before{right:0;}
+[type=\"checkbox\"]:not(:checked) + span:after,[type=\"checkbox\"]:checked + span:after{right:3px;}
+.wpcf7-checkbox, .wpcf7-radio{padding-right:0 !important;}
+.wpcf7-checkbox span.wpcf7-list-item{margin-right:0;margin-left:10px;}
+input[type=\"radio\"]{float:right !important;}
+span.wpcf7-list-item{margin-right:0;margin-left:10px;}
+@media (min-width:768px) {
+    .features .carousel-caption{right:10%;left:10%;}
+    .features .carousel-caption img{float:right;margin-left:30px;}
+    .right-md{text-align:left;}
+    .left-md{text-align:right;}
+    .logo-nav-sec.organictop{text-align:right;}
+}

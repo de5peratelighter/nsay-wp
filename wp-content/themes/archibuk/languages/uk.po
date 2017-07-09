@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ArchiBuk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-06-22 19:57+0000\n"
+"PO-Revision-Date: 2017-06-27 18:01+0000\n"
+"Last-Translator: Паранчак Тарас <taras.paranchak@gmail.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the theme
+msgid "ArchiBuk"
+msgstr ""
+
+#. Description of the theme
+msgid "ArchiBuk Theme as child of CloudPress"
+msgstr ""
+
+#. Author of the theme
+msgid "Анонімний"
+msgstr "Гість"
+
+msgid "Post"
+msgstr "Посада"
+
+#: functions.php:73
+msgid "Comment"
+msgstr "Коментар"
+
+#: functions.php:105
+msgid "Surname"
+msgstr "Прізвище"
+
+#: functions.php:128
+msgid "<p><strong>ERROR</strong>: please fill the Surname field.</p>"
+msgstr "<p><strong>ПОМИЛКА</strong>: будь ласка, введіть своє прізвище.</p>"
+
+#: comments.php:81
+msgid "Leave a comment"
+msgstr "Залишити коментар"
+
+#: template-parts/content.php:52
+msgid "Read More "
+msgstr "Читати далі "

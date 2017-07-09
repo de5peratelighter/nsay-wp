@@ -1,0 +1,23 @@
+/**
+ * Customizer Custom CSS
+ */
+.cloudpress-ads {
+  background-color: #C84E4E;
+  text-align: center;
+}
+.cloudpress-ads .button {
+    background-color: #C84E4E;
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    color: #ffffff;
+    margin: 15px 0;
+    transition: all 0.5s ease-in-out 0s;
+    -webkit-transition:all 0.5s ease-in-out 0s;
+    -moz-transition:all 0.5s ease-in-out 0s;
+}
+.cloudpress-ads .button:hover,
+.cloudpress-ads .button:focus
+{
+  background-color: #81d742 ;
+  color: #ffffff;
+}

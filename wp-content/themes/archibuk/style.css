@@ -1,0 +1,387 @@
+/*
+ * Theme Name:  ArchiBuk
+ * Description: ArchiBuk Theme as child of CloudPress
+ * Template:    cloudpress
+ * Version: 0.0.0.26
+ */
+
+
+
+/*==============================================================================
+                                CUSTOM FONTS
+==============================================================================*/
+
+
+
+/* font-family: "AA-Duke Fill"; */
+@font-face {
+    font-family: "Century Gothic";
+    src: url("fonts/Century_Gothic.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "Bebas Neue Cyrillic"; */
+@font-face {
+    font-family: "Century Gothic Bold";
+    src: url("fonts/Century_Gothic_Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+/*==============================================================================
+                                  BASE
+==============================================================================*/
+
+
+
+body {
+    font-family: "Century Gothic", sans-serif !important;
+    background: #F2F1F0;
+}
+section.logo-nav-sec {
+    background: none;
+}
+header .container {
+	background: #FFF;
+}
+
+
+
+/*==============================================================================
+                                  HEADER
+==============================================================================*/
+
+
+
+header .logo-nav-sec {
+	border: none;
+	-webkit-transition: none !important;
+    transition: none !important;
+}
+
+header .container {
+    position: relative;
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+
+
+/*--------------------------------------------------------------
+                          Header Menu
+--------------------------------------------------------------*/
+
+
+.logo-nav .header-menu {
+	margin-top: 22px;
+	margin-bottom: 18px;
+}
+.logo-nav .header-menu .list-inline {
+	display: inline-block;
+}
+
+.logo-nav .header-menu .list-inline li {
+	color: #434342;
+	font-size: 16px;
+	padding: 0;
+}
+.logo-nav .header-menu li a {
+    color: #434342;
+    font-size: 16px;
+}
+
+.logo-nav #language-switcher li a {
+	text-transform: uppercase;
+}
+
+.header-menu li::after {
+    content: '/';
+    margin: 0 5px;
+}
+.header-menu #language-switcher li:last-of-type::after {
+    content: none;
+}
+
+
+/*--------------------------------------------------------------
+                          Logo
+--------------------------------------------------------------*/
+
+
+.logo-nav .logo {
+    padding: 0 0 10px 0;
+}
+
+.logo-nav .logo .site-title,
+.logo-nav .logo .site-description {
+	float: left;
+}
+.logo-nav .logo .site_logo {
+	float: right;
+}
+
+.logo-nav .logo .site-title {
+	margin: 0 20px 0 0;
+}
+.logo-nav .logo .site-title a {
+	color: #727272;
+	font-size: 69px;
+	line-height: 56px;
+	font-family: "Century Gothic Bold", sans-serif !important;
+}
+.logo-nav .logo p.site-description {
+	color: #434342;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+}
+
+.logo-nav .logo img.custom-logo {
+	width: 70px;
+	height: auto;
+	padding: 0;
+}
+
+
+/*--------------------------------------------------------------
+                          Main Menu
+--------------------------------------------------------------*/
+
+
+.logo-nav .theme-nav .navbar-default .navbar-nav::before,
+.logo-nav .theme-nav .navbar-default .navbar-nav::after {
+	content: none;
+}
+
+.organictop .theme-nav {
+	box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+}
+.organictop .navbar {
+	min-height: 0;
+}
+.logo-nav .theme-nav {
+	position: absolute;
+	width: 100%;
+    left: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.logo-nav .theme-nav .navbar-default {
+	width: 1054px;
+    margin: 0 auto;
+}
+.logo-nav .theme-nav * {
+	background: none !important;
+}
+.logo-nav .theme-nav .navbar-default .navbar-nav > li > a {
+    color: #434342;
+    font-size: 16px;
+}
+
+.logo-nav .theme-nav .navbar-default .navbar-nav {
+	width: 100%;
+	display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.logo-nav .theme-nav .navbar-nav li a {
+    -webkit-transition:  all 0.4s ease-in-out !important;
+    transition: all 0.4s ease-in-out !important;
+}
+
+.logo-nav .theme-nav .navbar-default .navbar-nav .active > a,
+.logo-nav .theme-nav .navbar-default .navbar-nav .active > a:focus,
+.logo-nav .theme-nav .navbar-default .navbar-nav .active > a:hover {
+    color: #000 !important;
+    background: #fff !important;
+}
+
+.logo-nav .theme-nav .navbar-default .navbar-nav > li > a:hover {
+    color: #000 !important;
+    background: #fff !important;
+}
+
+.logo-nav .theme-nav .navbar-default .navbar-nav > li > a .caret {
+    display: none;
+}
+
+
+
+/*==============================================================================
+                                 HOME PAGE
+==============================================================================*/
+
+
+
+.theme-slider {
+    background: none;
+}
+.theme-slider .carousel-caption {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0;
+}
+.theme-slider .carousel-caption img {
+    max-width: 1170px;
+}
+
+
+
+/*==============================================================================
+                                  CONTENT
+==============================================================================*/
+
+
+
+.comments-number {
+	text-transform: lowercase;
+}
+.inv-recaptcha-holder {
+	display: none;
+}
+
+
+/*==============================================================================
+                              RESPONSIVE DESIGN
+==============================================================================*/
+
+
+
+@media (max-width: 767px) {
+	.navbar-nav .open .dropdown-menu {
+		background-color: rgba(179, 179, 179, 0.1);
+	}
+}
+
+@media (max-width: 991px) {
+	.organictop .theme-nav .navbar-nav > li > a {
+		padding: 22px 11px !important;
+	}
+} 
+
+@media (min-width: 768px) {
+	.logo-nav-sec {
+		position: absolute;
+	}
+	.admin-bar .logo-nav-sec {
+		top: 32px !important;
+	}
+	.logo-nav-sec.organictop {
+		position: fixed;
+		top: -151px !important;
+	}
+	.admin-bar .logo-nav-sec.organictop {
+		top: -118px !important;
+	}
+	.logo-nav .theme-nav .navbar-nav > li > a {
+	    padding: 6px 20px;
+		margin: 16px 0;
+	}
+	.organictop .theme-nav .navbar-nav > li > a {
+		margin: 0 0;
+	}
+	.home .theme-slider,
+	.page-header {
+		margin-top: 151px;
+	}
+}
+
+/* Add more place for main menu. */
+@media (min-width: 768px) and (max-width: 850px) {
+	.navbar-collapse {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.logo-nav .col-sm-7 {
+		padding-left: 0;
+	}
+}
+
+
+/*--------------------------------------------------------------
+             Google Doc Embedder on Statut Page
+--------------------------------------------------------------*/
+
+
+/* Monitor 1680x1050 / 1920x1080 */
+@media (max-width: 1650px) {
+	iframe.gde-frame {
+		height: 880px !important;
+	}
+}
+/* Monitor 1140x900 / 1600x900 */
+@media (max-width: 1400px) {
+	iframe.gde-frame {
+		height: 730px !important;
+	}
+}
+/* Notebook 1024x768 / 1280x800 / 1366x768 /  */
+@media (max-width: 1400px) {
+	iframe.gde-frame {
+		height: 600px !important;
+	}
+}
+/* Tablet */
+@media (max-width: 1199px) {
+	iframe.gde-frame {
+		height: 1010px !important;
+	}
+}
+/* Mobyle 750x1334 */
+@media (max-width: 991px) {
+	iframe.gde-frame {
+		height: 950px !important;
+	}
+}
+/* Mobyle 720x1280 */
+@media (max-width: 749px) {
+	iframe.gde-frame {
+		height: 905px !important;
+	}
+}
+/* Mobyle 640x960 */
+@media (max-width: 719px) {
+	iframe.gde-frame {
+		height: 790px !important;
+	}
+}
+/* Mobyle 540x960 */
+@media (max-width: 639px) {
+	iframe.gde-frame {
+		height: 650px !important;
+	}
+}
+/* Mobyle 480x800 */
+@media (max-width: 539px) {
+	iframe.gde-frame {
+		height: 565px !important;
+	}
+}
+/* Mobyle 320x480 */
+@media (max-width: 479px) {
+	iframe.gde-frame {
+		height: 390px !important;
+	}
+}
+
+
+/*.container {
+	border: 1px dashed #000;
+}
+@media (min-width: 992px) {
+	.page-content .col-md-9,
+	.single-page .col-md-9 {
+		border-right: 1px dashed #000;
+	}
+}
+footer .container {
+	border-color: #fff;
+}*/

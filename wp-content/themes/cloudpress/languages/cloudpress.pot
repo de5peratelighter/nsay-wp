@@ -1,0 +1,619 @@
+# Copyright (C) 2016 oceanwebthemes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: cloudpress 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/cloudpress\n"
+"POT-Creation-Date: 2016-05-30 19:02:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Santosh Raut <latentbuddha@gmail.com>\n"
+"Language-Team: OCEAN WEB <info@oceanwebthemes.com>\n"
+
+#: 404.php:57
+#@ cloudpress
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:63
+#@ cloudpress
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: archive.php:27
+#@ cloudpress
+msgid "Category : %s"
+msgstr ""
+
+#: blog.php:52
+#@ cloudpress
+msgid "Author: %s"
+msgstr ""
+
+#: blog.php:55
+#@ cloudpress
+msgid "Day: %s"
+msgstr ""
+
+#: blog.php:58
+#@ cloudpress
+msgid "Month: %s"
+msgstr ""
+
+#: blog.php:64
+#@ cloudpress
+msgid "Asides"
+msgstr ""
+
+#: blog.php:67
+#@ cloudpress
+msgid "Galleries"
+msgstr ""
+
+#: blog.php:70
+#@ cloudpress
+msgid "Images"
+msgstr ""
+
+#: blog.php:73
+#@ cloudpress
+msgid "Videos"
+msgstr ""
+
+#: blog.php:76
+#@ cloudpress
+msgid "Quotes"
+msgstr ""
+
+#: blog.php:79
+#@ cloudpress
+msgid "Links"
+msgstr ""
+
+#: blog.php:82
+#@ cloudpress
+msgid "Statuses"
+msgstr ""
+
+#: blog.php:85
+#@ cloudpress
+msgid "Audios"
+msgstr ""
+
+#: blog.php:88
+#@ cloudpress
+msgid "Chats"
+msgstr ""
+
+#: blog.php:91
+#@ cloudpress
+msgid "Archives"
+msgstr ""
+
+#: blog.php:52
+#@ cloudpress
+msgid "Author: %s"
+msgstr ""
+
+#: blog.php:52
+#@ cloudpress
+msgid "Author: %s"
+msgstr ""
+
+#: comments.php:42
+#, php-format
+#@ cloudpress
+msgctxt "comments title"
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:30
+#: comments.php:62
+#@ cloudpress
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:33
+#: comments.php:33
+#@ cloudpress
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:34
+#: comments.php:66
+#@ cloudpress
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:78
+#@ cloudpress
+msgid "Comments are closed."
+msgstr ""
+
+
+#: inc\template-tags.php:122
+#@ cloudpress
+
+msgctxt "Leave a comment"
+msgid "1 comment"
+msgstr[0] ""
+msgstr[1] ""
+
+
+
+#: template-parts\content-search.php:17 template-parts\content-single.php:52 template-parts\content.php:40 inc\template-tags.php:66
+#, php-format
+#@ cloudpress
+msgctxt "zero comment"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:65
+#@ cloudpress
+msgid "Primary Menu"
+msgstr ""
+#: functions.php:66
+#@ cloudpress
+msgid "Footer Menu"
+msgstr ""
+#: functions.php:183
+#@ cloudpress
+msgid "Main Sidebar"
+msgstr ""
+#: functions.php:193
+#@ cloudpress
+msgid "Woocommerce Left Sidebar"
+msgstr ""
+#: functions.php:202
+#@ cloudpress
+msgid "Footer Sidebar"
+msgstr ""
+#: functions.php:229
+#@ cloudpress
+msgid "Open Sans font: on or off"
+msgstr ""
+#: functions.php:316
+#: functions.php:342
+#@ cloudpress
+msgid "Posts navigation"
+msgstr ""
+#: functions.php:361
+#@ cloudpress
+msgid "Sticky"
+msgstr ""
+#: functions.php:382
+#@ cloudpress
+msgid "View all posts by %s"
+msgstr ""
+
+#: functions.php:520
+#@ cloudpress
+msgid "Search results for"
+msgstr ""
+
+#: functions.php:578
+#@ cloudpress
+msgid "Posts tagged"
+msgstr ""
+
+#: functions.php:583
+#@ cloudpress
+msgid "Articles posted by"
+msgstr ""
+
+#: functions.php:586
+#@ cloudpress
+msgid "Error 404"
+msgstr ""
+
+#: header.php:53
+#@ cloudpress
+msgid "Toggle navigation"
+msgstr ""
+
+#: search.php:25
+#@ cloudpress
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:4
+#@ cloudpress
+msgid "Type Something to search"
+msgstr ""
+
+#: template-blog.php:51
+#: template-home.php:84
+#: template-home.php:151
+#: template-home.php:292
+#: template-parts/content-blogs.php:48
+#: template-parts/content-search.php:29
+
+
+#@ cloudpress
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-none.php:17
+#@ cloudpress
+msgid "Nothing Found."
+msgstr ""
+
+#: template-parts/content-none.php:25
+#@ cloudpress
+msgid "Ready to publish your first post? <a href="%1$s">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:29
+#@ cloudpress
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+#: template-parts/content-none.php:34
+#@ cloudpress
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+#: template-parts/content-none.php:17
+#@ cloudpress
+msgid "Nothing Found."
+msgstr ""
+
+#: inc/customizer.php:35
+#@ cloudpress
+msgid "Default Settings"
+msgstr ""
+
+#: inc/customizer.php:36
+#@ cloudpress
+msgid "Default section provided by wordpress customizer."
+msgstr ""
+
+#: inc/customizer.php:54
+#@ cloudpress
+msgid "Theme Option"
+msgstr ""
+
+#: inc/customizer.php:55
+#@ cloudpress
+msgid "cloudpress Theme Option"
+msgstr ""
+
+#: inc/customizer.php:65
+#@ cloudpress
+msgid "Slider Categorie"
+msgstr ""
+
+#: inc/customizer.php:66
+#@ cloudpress
+msgid "Select the Slide Category for Homepage."
+msgstr ""
+
+#: inc/customizer.php:76
+#@ cloudpress
+msgid "Choose category"
+msgstr ""
+
+#: inc/customizer.php:90
+#@ cloudpress
+msgid "Check to disable Slider"
+msgstr ""
+
+#: inc/customizer.php:95
+#: inc/customizer.php:175
+#: inc/customizer.php:255
+#: inc/customizer.php:334
+
+#@ cloudpress
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer.php:96
+#: inc/customizer.php:176
+#: inc/customizer.php:256
+#: inc/customizer.php:335
+
+#@ cloudpress
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer.php:108
+#@ cloudpress
+msgid "No Of Posts To Show On Slider"
+msgstr ""
+
+#: inc/customizer.php:131
+#@ cloudpress
+msgid "Features Categories"
+msgstr ""
+
+#: inc/customizer.php:132
+#@ cloudpress
+msgid "Select the Category for Features Section for Homepage"
+msgstr ""
+
+#: inc/customizer.php:145
+#@ cloudpress
+msgid "Features Title"
+msgstr ""
+
+#: inc/customizer.php:157
+#@ cloudpress
+msgid "Choose category"
+msgstr ""
+
+#: inc/customizer.php:170
+#@ cloudpress
+msgid "Check to show features category"
+msgstr ""
+
+#: inc/customizer.php:189
+#@ cloudpress
+msgid "No Of Posts To Show On Feature"
+msgstr ""
+
+#: inc/customizer.php:213
+#@ cloudpress
+msgid "Why choose us Categories"
+msgstr ""
+
+#: inc/customizer.php:214
+#@ cloudpress
+msgid "Select the Category for Why Choose Us Section for Homepage"
+msgstr ""
+
+#: inc/customizer.php:225
+#@ cloudpress
+msgid "Why Choose Us Title"
+msgstr ""
+
+#: inc/customizer.php:237
+#@ cloudpress
+msgid "Choose category"
+msgstr ""
+
+#: inc/customizer.php:250
+#@ cloudpress
+msgid "Check to show Why Choose Us category"
+msgstr ""
+
+#: inc/customizer.php:269
+#@ cloudpress
+msgid "No Of Posts To Why Choose Us"
+msgstr ""
+
+#: inc/customizer.php:290
+#@ cloudpress
+msgid "Our Services Categories"
+msgstr ""
+
+#: inc/customizer.php:291
+#@ cloudpress
+msgid "Select the Category for Services Section for Homepage"
+msgstr ""
+
+#: inc/customizer.php:303
+#@ cloudpress
+msgid "Why Choose Us Title"
+msgstr ""
+
+#: inc/customizer.php:316
+#@ cloudpress
+msgid "Choose category"
+msgstr ""
+
+#: inc/customizer.php:229
+#@ cloudpress
+msgid "Check to show Services category"
+msgstr ""
+
+#: inc/customizer.php:348
+#@ cloudpress
+msgid "No Of Posts To Services"
+msgstr ""
+
+#: inc/customizer.php:368
+#@ cloudpress
+msgid "Theme Icons"
+msgstr ""
+
+#: inc/customizer.php:369
+#@ cloudpress
+msgid "Modify theme icons"
+msgstr ""
+
+#: inc/customizer.php:386
+#@ cloudpress
+msgid "Edit Why Choose Us Icon"
+msgstr ""
+
+#: inc/customizer.php:393
+#@ cloudpress
+msgid "Edit Our Services Icon"
+msgstr ""
+
+#: inc/customizer.php:408
+#@ cloudpress
+msgid "Theme Layout"
+msgstr ""
+
+#: inc/customizer.php:409
+#@ cloudpress
+msgid "Configure your sidebars here"
+msgstr ""
+
+#: inc/customizer.php:414
+#@ cloudpress
+msgid "Category Sidebar"
+msgstr ""
+
+#: inc/customizer.php:424
+#@ cloudpress
+msgid "Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:429
+#: inc/customizer.php:459
+#: inc/customizer.php:489
+#: inc/customizer.php:518
+
+
+
+#@ cloudpress
+msgid "none"
+msgstr ""
+
+#: inc/customizer.php:430
+#: inc/customizer.php:460
+#: inc/customizer.php:490
+#: inc/customizer.php:519
+
+
+
+#@ cloudpress
+msgid "left"
+msgstr ""
+
+#: inc/customizer.php:431
+#: inc/customizer.php:461
+#: inc/customizer.php:491
+#: inc/customizer.php:520
+
+
+
+#@ cloudpress
+msgid "right"
+msgstr ""
+
+#: inc/customizer.php:443
+#@ cloudpress
+msgid "Single Post Sidebar"
+msgstr ""
+
+#: inc/customizer.php:454
+#@ cloudpress
+msgid "Single Post Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:473
+#@ cloudpress
+msgid "Single Page Sidebar"
+msgstr ""
+
+#: inc/customizer.php:484
+#@ cloudpress
+msgid "Single Page Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:502
+#@ cloudpress
+msgid "Search Page Sidebar"
+msgstr ""
+
+#: inc/customizer.php:513
+#@ cloudpress
+msgid "Search Page Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:532
+#@ cloudpress
+msgid "Page Not Found Sidebar"
+msgstr ""
+
+#: inc/customizer.php:543
+#@ cloudpress
+msgid "Page Not Found Sidebar position"
+msgstr ""
+
+#: inc/customizer.php:565
+#@ cloudpress
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:566
+#@ cloudpress
+msgid "Footer Settings section."
+msgstr ""
+
+#: inc/customizer.php:587
+#@ cloudpress
+msgid "Copyright text"
+msgstr ""
+
+#: inc/customizer.php:605
+#@ cloudpress
+msgid "Show social icons"
+msgstr ""
+
+#: inc/customizer.php:624
+#@ cloudpress
+msgid "Social Media Title"
+msgstr ""
+
+#: inc/customizer.php:650
+#@ cloudpress
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer.php:668
+#@ cloudpress
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer.php:686
+#@ cloudpress
+msgid "Googleplus"
+msgstr ""
+
+#: inc/customizer.php:704
+#@ cloudpress
+msgid "You Tube"
+msgstr ""
+
+#: inc/customizer.php:722
+#@ cloudpress
+msgid "Linkedin"
+msgstr ""
+
+#: inc/customizer.php:740
+#@ cloudpress
+msgid "Skype"
+msgstr ""
+
+#: inc/customizer.php:757
+#@ cloudpress
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer.php:774
+#@ cloudpress
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer.php:791
+#@ cloudpress
+msgid "Tumblr"
+msgstr ""
+
+#: inc/extras.php:104
+#: inc/extras.php:118
+#@ cloudpress
+msgid "Comment"
+msgstr ""
+
+#: inc/extras.php:106
+#@ cloudpress
+msgid "Email"
+msgstr ""
+
+#: inc/extras.php:108
+#@ cloudpress
+msgid "Website"
+msgstr ""
+
+
+
+

@@ -1,0 +1,151 @@
+Tested up to: 4.8
+
+Version 2.0.3
+i)      Tested with latest RC
+ii)     Fixed demo URL
+
+Version 2.0.2
+i)		Minor CSS issue is fixed
+ii)		Indicator navigation of carousel in Fullwidth Slider page template fixed
+
+Version 2.0.1
+i)      changelog.txt order corrected.
+ii)     Documentation in  readme.txt file updated.
+
+
+Version 1.1.8
+i)      Added Enable/Disable option for menu of footer section
+ii)     Added Enable/Disable option for scroll to top.
+iii)    Fix the issue of full width slider.
+
+
+Version 1.1.7
+i)      Added Full Width Slider page template
+
+
+Version 1.1.6
+i)		Added sections folder and cta.php,feature,php,services.php,slider.php amd why-choose-us.php.
+ii)		Added page select and icon option for respective pages for why choose us and services section.
+iii)	Changed screenshot.png
+
+
+Version 1.1.5
+i)		Added Cta section in Home Page.
+ii)		Fixed the responsive issuese.
+
+
+Version 1.1.4
+i)      Screenshot is changed.
+ii)		fixed the css issuese of logo section.
+iii)	Added enable/disable option for title of slider.
+iV)     Added enable/disable option for content of slider.
+iV)     Added enable/disable option for read more button of slider.
+iV)     Added enable/disable option for carousel of slider.
+
+
+
+Version 1.1.3
+i)      Default icon are added in footer section.
+ii)		fixed the error in footer section.
+iii)	Fixed the issuese of escaping and translation.
+iV)     Fixed the css issuese.
+
+
+Version 1.1.2
+
+i)		Added enable/disable option for search in menu.
+ii)		fixed the error in footer section.
+iii)	Fixed the issuese of escaping and translation.
+
+
+Version 1.1.1
+
+i)		slider added in latest blog post
+ii) 	Screenshot changed 
+iii)	Customizer default social link value to #
+iv) 	Default widget added incase of no widget selection
+v)		WordPress Default setting are now in primary location in customizer
+vi)		Full thumbnail in slider 
+vii)	Slider Error is fixed in output
+
+
+
+Version 1.1.0
+
+i)		Demo Url Fixed 
+
+
+Version 1.0.9
+
+i)		Added images in Screenshot and the Copyright to Images 
+ii)		Added link to Pro Version 
+iii) 	Minor CSS issue is fixed 
+iv)		wp_bootstrap_navwalker.php is fixed for the Parent menu
+v)		Archive description is removed from archive.php
+vi)		template-home.php changed to page-home.php
+
+
+
+Version 1.0.8
+
+i)		Removed function the_archive_title
+ii)		Added copyright
+iii)	fixed issue on search form
+iv)		Added Missing Translation functions
+v) 		Pot file updated
+
+
+
+Version 1.0.7 
+
+i) 		Fixed all the issue and WordPress Error as Per WP Standard 
+
+
+
+Version 1.0.6
+i) 		Fixed all the issue and Error as Per WP standard
+
+
+
+Version 1.0.5
+
+i)		Depreciated tag removed 
+ii)		Change in Description
+
+
+
+Version 1.0.4
+
+i)		Added category.php and edited archive.php
+ii)		Edited script.js
+iii)	Removed template-blog.php
+iv)		Added content-archive.php
+iv)		Slider thumbnail and feature thumbnail size fixed 
+v)		Why choose us and Our services rows fixed 
+
+
+Version 1.0.2
+i)   	Screenshot changed with graphics
+ii)		replaced minified version of css and js with unminified version of css and js
+iii)	Merged sections/footer.php and footer.php 
+iv)		Merged sections/header.php and header.php
+iv)		Jquery Replaced with default WP Jquery
+v)		removed Unused files and folders
+vi)		Added changelog.txt
+vii)	Added bootstrap-rtl.css, bootsrap.rtl.js,responsive-rtl.css and changed rtl.css for rtl support
+viii)  	Added enable/disable home slider, services, features and why choose us section. 
+ix)   	Added number of posts to show on home page of every section
+x)   	Added footer social share links ,
+xi)		Removed Plugin teritory functions 
+
+
+
+Version 1.0.1
+i)   	Screenshot changed to default installation
+
+
+Version 1.0.0
+i)   	Intial version Release
+
+
+
