@@ -20,7 +20,7 @@
 
 <body <?php body_class(); ?>>
   
-<header role="banner">
+<header id="header-content" role="banner">
 	<section class="logo-nav-sec">
 		<div class="container">
 			<div class="logo-nav">

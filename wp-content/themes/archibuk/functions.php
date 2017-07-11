@@ -29,6 +29,10 @@ add_action('wp_enqueue_scripts', function() {
     );
 }, 100);
 
+add_action('wp_enqueue_scripts', function() {
+	wp_enqueue_style('custom-style', get_stylesheet_directory_uri() . '/css/custom.css');
+}, 100);
+
 
 /**
  * Fires before scripts in the $handles queue are printed.

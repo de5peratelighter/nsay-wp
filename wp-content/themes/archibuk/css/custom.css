@@ -1,0 +1,10 @@
+body[class*="page-template"] #header-content {
+    height: 215px;
+}
+body[class*="tax-chlenstvo"] #header-content {
+    height: 215px;
+}
+
+.page-content .union {
+    clear: none;
+}
