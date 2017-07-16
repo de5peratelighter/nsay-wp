@@ -206,4 +206,43 @@ if (isset($_POST['comment_post_ID']) && !empty($_POST['author']) && !empty($_POS
 }
 
 
-	
+function custom_post_architector_type() { // TODO Custom post type
+  $labels = array(
+    'name'               => _x( 'Архітектор', 'post type general name' ),
+    'singular_name'      => _x( 'Архітектора', 'post type singular name' ),
+    'add_new'            => _x( 'Додати', 'архітектора' ),
+    'add_new_item'       => __( 'Додати архітектора' ),
+    'edit_item'          => __( 'Редарувати сторінку архітектора' ),
+    'new_item'           => __( 'Add Архітектор' ),
+    'all_items'          => __( 'Всі Архітектори' ),
+    'view_item'          => __( 'Переглянути сторінку архітектора' ),
+    'search_items'       => __( 'Шукати архітекторів' ),
+    'not_found'          => __( 'Нікого не знайдено' ),
+    'not_found_in_trash' => __( 'No found in the Trash' ), 
+    'parent_item_colon'  => '',
+    'menu_name'          => 'Архітектории'
+  );
+  $args = array(
+    'labels'        => $labels,
+    'description'   => 'Holds our architectors information',
+    'public'        => true,
+    'menu_position' => 5,
+    'supports'      => array( 'title', 'thumbnail'),
+    'has_archive'   => true,
+  );
+  register_post_type( 'architectorr', $args ); 
+}
+add_action( 'init', 'custom_post_architector_type' );	
+
+function custom_taxonomies_membership() { // TODO Custom Taxonomies type
+  $labels = array(
+    'name'              => _x( 'Членство', 'taxonomy general name' ),
+    'singular_name'     => _x( 'Членство', 'taxonomy singular name' )
+  );
+  $args = array(
+    'labels' => $labels,
+    'hierarchical' => true,
+  );
+  register_taxonomy( 'membership', 'architectorr', $args );
+}
+add_action( 'init', 'custom_taxonomies_membership', 0 );

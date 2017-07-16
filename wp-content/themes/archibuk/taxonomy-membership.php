@@ -9,7 +9,7 @@ get_header(); ?>
 
 <div class="clearfix"></div>
 <section class="page-content">
-  <div class="container">       
+  <div class="container">
     <div class="col-md-12">
         <?php if ( have_posts() ) : ?>              
 

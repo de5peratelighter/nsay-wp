@@ -1,0 +1,20 @@
+[16-Jul-2017 08:45:20 UTC] PHP Fatal error:  Cannot redeclare my_custom_post_product() (previously declared in /home/ubuntu/workspace/wp-content/themes/archibuk/functions.php:56) in /home/ubuntu/workspace/wp-content/themes/cloudpress/functions.php on line 589
+[16-Jul-2017 08:45:20 UTC] PHP Stack trace:
+[16-Jul-2017 08:45:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin-ajax.php:0
+[16-Jul-2017 08:45:20 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/admin-ajax.php:22
+[16-Jul-2017 08:45:20 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-load.php:37
+[16-Jul-2017 08:45:20 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-config.php:91
+[16-Jul-2017 08:45:23 UTC] PHP Fatal error:  Cannot redeclare my_custom_post_product() (previously declared in /home/ubuntu/workspace/wp-content/themes/archibuk/functions.php:56) in /home/ubuntu/workspace/wp-content/themes/cloudpress/functions.php on line 589
+[16-Jul-2017 08:45:23 UTC] PHP Stack trace:
+[16-Jul-2017 08:45:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/edit.php:0
+[16-Jul-2017 08:45:23 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/edit.php:10
+[16-Jul-2017 08:45:23 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[16-Jul-2017 08:45:23 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[16-Jul-2017 08:45:23 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:91
+[16-Jul-2017 08:46:33 UTC] PHP Fatal error:  Cannot redeclare my_custom_post_product() (previously declared in /home/ubuntu/workspace/wp-content/themes/archibuk/functions.php:56) in /home/ubuntu/workspace/wp-content/themes/cloudpress/functions.php on line 589
+[16-Jul-2017 08:46:33 UTC] PHP Stack trace:
+[16-Jul-2017 08:46:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/edit.php:0
+[16-Jul-2017 08:46:33 UTC] PHP   2. require_once() /home/ubuntu/workspace/wp-admin/edit.php:10
+[16-Jul-2017 08:46:33 UTC] PHP   3. require_once() /home/ubuntu/workspace/wp-admin/admin.php:31
+[16-Jul-2017 08:46:33 UTC] PHP   4. require_once() /home/ubuntu/workspace/wp-load.php:37
+[16-Jul-2017 08:46:33 UTC] PHP   5. require_once() /home/ubuntu/workspace/wp-config.php:91

@@ -15,7 +15,7 @@ get_header();
             $images = get_field('architect_list_images');
             
             if( $images ): ?>
-                <ul>
+                <ul class="architect-list-images">
                     <?php foreach( $images as $image ): ?>
                         <li>
                             <a href="<?php echo $image['url']; ?>">
@@ -27,7 +27,7 @@ get_header();
                 </ul>
             <?php endif; ?>
           </div>
-        <div class="row">
+        <div class="row bottom-header">
             <span><?php echo the_field('about_us_page_name'); ?></span>
             <a href="<?php echo the_field('link_to_union_members'); ?>"><?php echo the_field('link_text_union_members'); ?></a>
        </div>

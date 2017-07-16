@@ -9,7 +9,7 @@
 
 <?php
 	$class = 'col-md-12';
-	$sidebar = ($post->post_type == 'architector') ? 'none' : get_theme_mod('single_post_sidebar_position');
+	$sidebar = ($post->post_type == 'architectorr') ? 'none' : get_theme_mod('single_post_sidebar_position');
 	
 	if ( !empty( $sidebar ) ) {
 		$sidebar_value = $sidebar;
@@ -42,8 +42,30 @@
 
 	<div class="clearfix visible-xs"></div>
 
-	<article>
-		<?php the_content();?>
+	<article class="single-content">
+		
+    <?php 
+			$fields = get_field_objects();
+			
+			if( $fields ): ?>
+				<ul class="list-members">
+					<?php foreach( $fields as $field_name => $field ): ?>
+					
+						<?php if( $field['name'] != 'member_photo_small' && $field['name'] != 'member_photo_full'): ?>
+							<li>
+								<h3><?php echo $field['label']; ?></h3>
+								<p> <?php echo $field['value']; ?></p>
+							</li>
+						<?php elseif($field['name'] == 'member_photo_full') : ?>
+							<li>
+								<h3><?php echo $field['label']; ?></h3>
+								<p> <img src="<?php echo $field['value']; ?>"</p>
+							</li>
+						<?php endif; ?>
+
+					<?php endforeach; ?>
+				</ul>
+		<?php endif; ?>
 
 		<?php
 			wp_link_pages( array(
