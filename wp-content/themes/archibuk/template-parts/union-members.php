@@ -10,15 +10,6 @@ get_header();
 
 <section class="page-content">
   <div class="container">
-    <div class="text-statute row">
-      <?php 
-        $text_header = get_field( "text_header" );
-        $text_statute = get_field( "text_statute" );
-      ?>
-      <?php
-        echo do_shortcode('[expand  title="'. $text_header. ']'. $text_statute. '[/expand]'); ?>
-    
-    </div> 
     <div class="row">
         <?php 
             $args = array( 
