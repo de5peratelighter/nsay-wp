@@ -10,6 +10,16 @@ get_header(); ?>
 <div class="clearfix"></div>
 <section class="page-content">
   <div class="container">
+    <div class="membership-structur-desc">
+      <?php $data = get_queried_object();
+            $text_header = 'Статут';
+            $text_statute = term_description( 186, 'membership' );
+            
+        if ( $data->term_id == 186 || $data->slug == 'structure') {?>
+        <?php echo do_shortcode('[expand title="'. $text_header. ' " trigpos="below"]'. $text_statute. '[/expand]'); ?>
+      <?php } ?>
+    </div>
+
     <div class="col-md-12">
         <?php if ( have_posts() ) : ?>              
 

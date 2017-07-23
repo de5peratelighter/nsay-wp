@@ -16,7 +16,7 @@ get_header();
         $text_statute = get_field( "text_statute" );
       ?>
       <?php
-        echo do_shortcode('[expand title="'. $text_header. '"]'. $text_statute. '[/expand]'); ?>
+        echo do_shortcode('[expand  title="'. $text_header. ']'. $text_statute. '[/expand]'); ?>
     
     </div> 
     <div class="row">

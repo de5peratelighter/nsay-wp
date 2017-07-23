@@ -220,14 +220,14 @@ function custom_post_architector_type() { // TODO Custom post type
     'not_found'          => __( 'Нікого не знайдено' ),
     'not_found_in_trash' => __( 'No found in the Trash' ), 
     'parent_item_colon'  => '',
-    'menu_name'          => 'Архітектории'
+    'menu_name'          => 'Архітектори'
   );
   $args = array(
     'labels'        => $labels,
     'description'   => 'Holds our architectors information',
     'public'        => true,
     'menu_position' => 5,
-    'supports'      => array( 'title', 'thumbnail'),
+    'supports'      => array( 'title' ),
     'has_archive'   => true,
   );
   register_post_type( 'architectorr', $args ); 

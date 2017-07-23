@@ -2,7 +2,7 @@ body[class*="page-template"] #header-content {
     height: 215px;
 }
 body[class*="tax-membership"] #header-content {
-    height: 215px;
+    height: 255px;
 }
 
 .page-content .union {
@@ -25,4 +25,11 @@ body[class*="tax-membership"] #header-content {
 .text-statute {
     margin-top: 40px;
     padding-left: 30px;
+}
+.membership-structur-desc {
+    margin-top: 40px;
+    padding-left: 4%;
+}
+section.page-content {
+    margin-top: 40px;
 }
